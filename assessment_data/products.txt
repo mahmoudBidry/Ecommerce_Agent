@@ -1,0 +1,29 @@
+Product: UltraPhone X
+Price: $799
+Features: 6.5" OLED display, 128GB storage, 12MP camera
+Colors: Black, Silver, Blue
+Availability: In stock
+
+Product: MaxBook Pro 14
+Price: $1,299
+Features: 14" Retina display, 512GB SSD, M2 chip
+Colors: Silver, Space Gray
+Availability: Out of stock
+
+Product: AirBuds Pro
+Price: $199
+Features: Noise cancellation, wireless charging, 24-hour battery life
+Colors: White, Black
+Availability: In stock
+
+Product: SmartWatch Elite
+Price: $349
+Features: AMOLED display, heart rate monitor, GPS tracking
+Colors: Black, Rose Gold, Silver
+Availability: In stock
+
+Product: GamerPro 5 Laptop
+Price: $2,499
+Features: 15.6" 144Hz display, RTX 4070 GPU, 1TB SSD, 32GB RAM
+Colors: Black, Red
+Availability: Pre-order (ships in 2 weeks)
