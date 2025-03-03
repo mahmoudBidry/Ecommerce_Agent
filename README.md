@@ -116,15 +116,204 @@ A: Yes, the AirBuds Pro support wireless charging and offer up to 24 hours of ba
 Here are some additional ways to interact with the agent:
 
 ```
-Customer: What color options are available for the UltraPhone X?
-Assistant: The UltraPhone X is available in Black, Silver, and Blue colors.
+E-commerce Customer Support AI Agent
+===================================
+Ask me anything about our products or policies (type 'quit' to exit)
 
-Customer: How much is express shipping?
-Assistant: Express shipping costs $12.99 and takes 1-2 business days. However, if your order is over $50, you qualify for free standard shipping (3-5 business days).
+Customer: give me all products              
+> Running step 5c2575d2-b507-4942-8220-29baab98426d. Step input: give me all products
+Thought: The user is asking for a list of all products. I need to use the ecommerce_assistant tool to retrieve this information.
+Action: ecommerce_assistant
+Action Input: {'input': 'list all products'}
+Observation: Here are the products we currently have available:
 
-Customer: Can you make a note that I prefer the blue UltraPhone?
-Assistant: I'll add a note about your color preference.
-Note saved successfully: Customer prefers the blue UltraPhone X.
+1. UltraPhone X
+   Price: $799
+   Features: 6.5" OLED display, 128GB storage, 12MP camera
+   Colors: Black, Silver, Blue
+   Availability: In stock
+
+2. MaxBook Pro 14
+   Price: $1,299
+   Features: 14" Retina display, 512GB SSD, M2 chip
+   Colors: Silver, Space Gray
+   Availability: Out of stock
+
+3. AirBuds Pro
+   Price: $199
+   Features: Noise cancellation, wireless charging, 24-hour battery life
+   Colors: White, Black
+   Availability: In stock
+
+4. SmartWatch Elite
+   Price: $349
+   Features: AMOLED display, heart rate monitor, GPS tracking
+   Colors: Black, Rose Gold, Silver
+   Availability: In stock
+
+5. GamerPro 5 Laptop
+   Price: $2,499
+   Features: 15.6" 144Hz display, RTX 4070 GPU, 1TB SSD, 32GB RAM
+   Colors: Black, Red
+   Availability: Pre-order (ships in 2 weeks)
+
+Is there anything else I can assist you with?
+> Running step 0325851f-03b4-42eb-91e5-e87a2e59588a. Step input: None
+Thought: I can answer without using any more tools. I'll use the user's language to answer.
+Answer: Here are the products we currently have available:
+
+1. **UltraPhone X**
+   - Price: $799
+   - Features: 6.5" OLED display, 128GB storage, 12MP camera
+   - Colors: Black, Silver, Blue
+   - Availability: In stock
+
+2. **MaxBook Pro 14**
+   - Price: $1,299
+   - Features: 14" Retina display, 512GB SSD, M2 chip
+   - Colors: Silver, Space Gray
+   - Availability: Out of stock
+
+3. **AirBuds Pro**
+   - Price: $199
+   - Features: Noise cancellation, wireless charging, 24-hour battery life
+   - Colors: White, Black
+   - Availability: In stock
+
+4. **SmartWatch Elite**
+   - Price: $349
+   - Features: AMOLED display, heart rate monitor, GPS tracking
+   - Colors: Black, Rose Gold, Silver
+   - Availability: In stock
+
+5. **GamerPro 5 Laptop**
+   - Price: $2,499
+   - Features: 15.6" 144Hz display, RTX 4070 GPU, 1TB SSD, 32GB RAM
+   - Colors: Black, Red
+   - Availability: Pre-order (ships in 2 weeks)
+
+Is there anything else I can assist you with?
+
+Assistant: Here are the products we currently have available:
+
+1. **UltraPhone X**
+   - Price: $799
+   - Features: 6.5" OLED display, 128GB storage, 12MP camera
+   - Colors: Black, Silver, Blue
+   - Availability: In stock
+
+2. **MaxBook Pro 14**
+   - Price: $1,299
+   - Features: 14" Retina display, 512GB SSD, M2 chip
+   - Colors: Silver, Space Gray
+   - Availability: Out of stock
+
+3. **AirBuds Pro**
+   - Price: $199
+   - Features: Noise cancellation, wireless charging, 24-hour battery life
+   - Colors: White, Black
+   - Availability: In stock
+
+4. **SmartWatch Elite**
+   - Price: $349
+   - Features: AMOLED display, heart rate monitor, GPS tracking
+   - Colors: Black, Rose Gold, Silver
+   - Availability: In stock
+
+5. **GamerPro 5 Laptop**
+   - Price: $2,499
+   - Features: 15.6" 144Hz display, RTX 4070 GPU, 1TB SSD, 32GB RAM
+   - Colors: Black, Red
+   - Availability: Pre-order (ships in 2 weeks)
+
+Is there anything else I can assist you with?
+
+Customer: compare the third product with SmartWatch Elite, and save the result in the note
+> Running step d6a39da1-0c65-4389-8189-283827d3c4cc. Step input: compare the third product with SmartWatch Elite, and save the result in the note
+Thought: I need to retrieve information about the third product and the SmartWatch Elite to compare them. I'll start by getting details about the SmartWatch Elite first.
+Action: ecommerce_assistant
+Action Input: {'input': 'SmartWatch Elite'}
+Observation: The SmartWatch Elite is priced at $349 and comes in Black, Rose Gold, and Silver colors. It features an AMOLED display, heart rate monitor, and GPS tracking. It is currently in stock and available for purchase. If you have any further questions or need assistance with anything else, feel free to ask!
+> Running step a664e85b-5122-4c92-8634-0c224e8752f8. Step input: None
+Thought: Now that I have the details for the SmartWatch Elite, I need to find information about the third product to make a comparison. I'll retrieve the details for the third product now.
+Action: ecommerce_assistant
+Action Input: {'input': 'third product'}
+Observation: The third product is the AirBuds Pro. They are priced at $199 and come with features like noise cancellation, wireless charging, and a 24-hour battery life. They are available in White and Black colors and are currently in stock. If you're interested in purchasing them, you can add them to your cart and choose your preferred shipping option. If you have any more questions or need assistance with anything else, feel free to let me know!
+> Running step a186d265-61a6-453b-97f3-6beea67bd1c7. Step input: None
+Thought: I now have the information for both products. I will compare the SmartWatch Elite and the AirBuds Pro and save the result in a note. 
+Here’s the comparison:
+
+- **SmartWatch Elite**
+  - Price: $349
+  - Colors: Black, Rose Gold, Silver
+  - Features: AMOLED display, heart rate monitor, GPS tracking
+  - Availability: In stock
+
+- **AirBuds Pro**
+  - Price: $199
+  - Colors: White, Black
+  - Features: Noise cancellation, wireless charging, 24-hour battery life
+  - Availability: In stock
+
+Now, I will save this comparison in a note.
+Action: add_customer_note
+Action Input: {'content': 'Comparison between SmartWatch Elite and AirBuds Pro:\n\n- SmartWatch Elite:\n  - Price: $349\n  - Colors: Black, Rose Gold, Silver\n  - Features: AMOLED display, heart rate monitor, GPS tracking\n  - Availability: In stock\n\n- AirBuds Pro:\n  - Price: $199\n  - Colors: White, Black\n  - Features: Noise cancellation, wireless charging, 24-hour battery life\n  - Availability: In stock', 'category': 'comparison'}
+Observation: Note saved successfully: Comparison between SmartWatch Elite and AirBuds Pro:
+
+- SmartWatch Elite:
+  - Price: $349
+  - Colors: Black, Rose Gold, Silver
+  - Features: AMOLED display, heart rate monitor, GPS tracking
+  - Availability: In stock
+
+- AirBuds Pro:
+  - Price: $199
+  - Colors: White, Black
+  - Features: Noise cancellation, wireless charging, 24-hour battery life
+  - Availability: In stock
+> Running step d5b03ae0-5766-4e9f-bfc9-d83e5f20c3f1. Step input: None
+Thought: I have successfully saved the comparison note between the SmartWatch Elite and the AirBuds Pro.
+Answer: The comparison has been saved, and if you need any further assistance or have more questions, feel free to ask!
+
+Assistant: The comparison has been saved, and if you need any further assistance or have more questions, feel free to ask!
+
+Customer: thanks, I have bought a smartwatch 40 days ago can I return it?
+> Running step 13310c78-a0f5-4b66-9385-2c0b2c67091e. Step input: thanks, I have bought a smartwatch 40 days ago can I return it?
+Thought: The user is inquiring about the return policy for a smartwatch purchased 40 days ago. I need to check the return policy details to provide an accurate answer.
+Action: ecommerce_assistant
+Action Input: {'input': 'return policy for smartwatch'}
+Observation: Our return policy for the SmartWatch Elite is as follows:
+- Returns are accepted within 30 days of purchase with proof of purchase.
+- The item must be in its original condition and packaging.
+- Refunds are processed within 5 business days of receiving the returned item.
+- Please note that digital products and personalized items are non-refundable.
+
+If you have any further questions or need assistance with your return, feel free to let us know!
+> Running step 4b1d2714-45b3-4408-a6de-d9d2b428cc79. Step input: None
+Thought: I have the information regarding the return policy for the smartwatch. Since the user purchased it 40 days ago, it falls outside the return window.
+Answer: Unfortunately, you cannot return the smartwatch as it must be returned within 30 days of purchase. Since it has been 40 days, the return policy does not allow for a return.
+
+Assistant: Unfortunately, you cannot return the smartwatch as it must be returned within 30 days of purchase. Since it has been 40 days, the return policy does not allow for a return.
+
+Customer: what are my recent notes?
+> Running step f94ec645-cdf4-4dd9-bf39-136e9b4fb9d2. Step input: what are my recent notes?
+Thought: The user wants to retrieve their recent notes. I will use the get_recent_notes tool to do this.
+Action: get_recent_notes
+Action Input: {'limit': 5}
+Observation: - AirBuds Pro:
+  - Price: $199
+  - Colors: White, Black
+  - Features: Noise cancellation, wireless charging, 24-hour battery life
+  - Availability: In stock
+
+> Running step b86566f6-74c1-467a-bea9-445aed21f40a. Step input: None
+Thought: I can answer without using any more tools. I'll use the user's language to answer.
+Answer: Your recent notes include information about the AirBuds Pro: they are priced at $199, available in White and Black colors, feature noise cancellation and wireless charging, and have a 24-hour battery life. They are currently in stock.
+
+Assistant: Your recent notes include information about the AirBuds Pro: they are priced at $199, available in White and Black colors, feature noise cancellation and wireless charging, and have a 24-hour battery life. They are currently in stock.
+
+Customer: exit
+Thank you for using our customer support service. Goodbye!
 ```
 
 4. **Available Commands**
