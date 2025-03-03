@@ -51,11 +51,11 @@ cd <repository-name>
 
 2. **Create and Activate Virtual Environment**
 ```bash
-python3.11 -m venv venv
+python3.11 -m venv env
 # On Windows
-.\venv\Scripts\activate
+.\env\Scripts\activate
 # On Unix or MacOS
-source venv/bin/activate
+source env/bin/activate
 ```
 
 3. **Install Dependencies**
