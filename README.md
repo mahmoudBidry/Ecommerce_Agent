@@ -113,6 +113,38 @@ A: Yes, the AirBuds Pro support wireless charging and offer up to 24 hours of ba
 
 3. **Example Interactions**
 
+The example interactions demonstrate the agent's capabilities through a detailed conversation that shows:
+
+**Conversation Format**:
+- `Customer:` - User inputs are clearly marked
+- `>` - Shows the internal reasoning process (can be hidden in production)
+- `Thought:` - The agent's step-by-step reasoning
+- `Action:` - The tool or method being called
+- `Action Input:` - The specific query or parameters
+- `Observation:` - The result from the tool
+- `Answer:` or `A:` - The final response to the user
+
+**Reasoning Process (ReAct Pattern)**:
+The agent follows a structured reasoning pattern:
+1. Analyzes the user's request
+2. Formulates a plan using internal thoughts
+3. Decides which tools to use (ecommerce_assistant, add_customer_note, etc.)
+4. Processes the results
+5. Generates a natural language response
+
+This reasoning process is visible in the example where the agent:
+- Lists all products
+- Compares products and saves notes
+- Checks return policies
+- Retrieves customer notes
+
+The example shows how the agent handles:
+- Complex queries requiring multiple steps
+- Information retrieval and comparison
+- Note-taking and memory access
+- Policy verification
+- Natural follow-up questions
+
 Here are some additional ways to interact with the agent:
 
 ```
