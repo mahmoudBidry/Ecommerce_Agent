@@ -27,7 +27,7 @@ The project uses a RAG (Retrieval-Augmented Generation) approach with the follow
 
 3. **Tool System**:
    - QueryEngineTool for accessing product and policy information
-   - Note-taking tools for maintaining customer recordsz
+   - Note-taking tools for maintaining customer records
    - Extensible architecture for adding new capabilities
 
 4. **LLM Integration**:
@@ -154,9 +154,3 @@ Note saved successfully: Customer prefers the blue UltraPhone X.
 - One question at a time for best results
 - Use follow-up questions naturally
 - Request notes for important preferences or details
-
-## Limitations
-
-- Only knows about products and policies in the knowledge base
-- Cannot process orders or make changes to the system
-- Limited to text-based interactions
